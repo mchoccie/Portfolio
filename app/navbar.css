@@ -1,0 +1,50 @@
+.nav-list {
+    list-style-type: none;
+    background-color: #1f1f2e;
+    padding: 0;
+    display: flex; /* Use flexbox to arrange items horizontally */
+    justify-content: left; /* Optional: Center the nav items horizontally */
+}
+
+nav{
+    background-color: #1f1f2e;
+}
+.navbar-nav .nav-link {
+    color: rgba(205, 202, 202, 0.636) /* Set the color of the navbar links */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FF4500; /* Set the color of the navbar links on hover */
+}
+
+.navbar-nav .nav-link:focus{
+    color: rgba(205, 202, 202, 0.636)
+}
+
+
+
+.nav ul {
+width: 100vw;
+
+}
+
+
+@media (max-width: 992px) {
+
+    .nav-list {
+        list-style-type: none;
+        background-color: #1f1f2e;
+        padding: 0;
+        display: flex; /* Use flexbox to arrange items horizontally */
+        flex-direction: column;
+    }
+    .navbar-nav {
+        text-align: center; /* Center text in the dropdown */
+    }
+    
+    .navbar-nav .nav-item {
+        width: 100%; /* Full width items */
+        border-top: 1px solid #1f1f2e; /* Add a border between items */
+    }
+}
+

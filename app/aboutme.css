@@ -1,0 +1,37 @@
+.aboutme-content-wrapper{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.aboutme-text{
+    display: flex;
+    color: rgba(205, 202, 202, 0.636);
+    text-align: justify;
+}
+
+.aboutme-picture{
+    display: flex;
+    border-radius: 3px;
+    padding-left: 5%;
+}
+
+.me{
+    border-radius: 10px;
+}
+
+@media (max-width: 992px) {
+
+    .aboutme-content-wrapper{
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .aboutme-picture{
+        display: flex;
+        justify-content: center;
+        padding-left: 0%;
+        padding-top: 5%;
+    }
+}

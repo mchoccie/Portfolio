@@ -1,0 +1,207 @@
+
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+.Navbar {
+    width: 100vw;
+}
+
+.tab{
+    color: black;
+}
+
+
+.custom-button {
+    background-color: #007bff; /* Custom background color */
+    color: white; /* Custom text color */
+    border-color: #007bff; /* Custom border color */
+  }
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Custom background color on hover */
+    border-color: #0056b3; /* Custom border color on hover */
+  }
+
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center items horizontally */
+    flex-direction: column;
+    color: #090000;
+    flex-grow: 1;
+    width: 100vw;
+}
+.aboutme {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex-grow: 1;
+    background-color: #1f1f2e;
+    /* padding-left: 15%; */
+    padding-right: 15%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    
+}
+
+.aboutme-title{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+.skills-title{
+    color: white;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+
+.experience-title{
+    font-size: 30px;
+    color: white;
+}
+
+.contactbuttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10%;
+}
+
+.projects-title{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 5%;
+}
+
+.projects{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+
+.experience{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex-grow: 1;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    flex-grow: 1;
+    padding-bottom: 10%;
+    padding-top: 5%;
+}
+
+.Name {
+    font-size: 40px;
+    
+    color: white
+}
+
+.resume-button{
+    background-color: #1f1f2e;
+    border-radius: 3px;
+    color: white;
+    border-color: white;
+    border-width: 1px;
+}
+
+.intro{
+    margin-top: 15%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.descrip{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.shortDescrip {
+    font-size: 25px;
+    color: white
+}
+
+.littleaboutme{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 3%;
+    flex-grow: 1;
+}
+
+.littleaboutmedescr{
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    max-width: 600px;
+    font-size: 15px;
+    color: rgba(205, 202, 202, 0.636)
+}
+
+body, html, #root {
+    background-color: #1f1f2e; 
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+.experience-title{
+    margin-bottom: 5%;
+}
+
+.experience-tabs {
+    margin-top: 5%;
+}
+
+.container {
+    background-color: #1f1f2e;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    margin: 0;
+
+
+    
+    
+}
+
+
+@media (max-width: 992px) {
+
+    .container{
+        overflow-y: visible;
+        overflow-x: visible;
+    }
+}

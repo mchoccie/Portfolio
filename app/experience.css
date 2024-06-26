@@ -1,0 +1,58 @@
+.tab-content{
+    flex-direction: column;
+    display: flex;
+}
+.job-title-text {
+    color: white; /* Example property */
+    font-size: 25px; /* Example property */
+  }
+
+.job-title-text-2 {
+    color: #FF4500;  /* Example property */
+    font-size: 25px; /* Example property */
+  }
+
+.job-duration-text{
+    color: rgba(205, 202, 202, 0.636);
+    font-size: 15px;
+}
+
+.job-tasks{
+    margin-top: 5%;
+}
+
+.job-tasks-b1{
+    color: rgba(205, 202, 202, 0.636);
+    font-size: 15px;
+}
+
+ul li::marker {
+    color: #FF4500; /* Change this to the desired color */
+  }
+
+
+
+
+.job-tasks-b2{
+    color: rgba(205, 202, 202, 0.636);
+    font-size: 15px;
+}
+
+.job-tasks-b3{
+    color: rgba(205, 202, 202, 0.636);
+    font-size: 15px;
+}
+
+
+@media (max-width: 992px) {
+
+    .custom-box{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .MuiTab-root{
+        align-items: center;
+    }
+}

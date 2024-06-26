@@ -1,0 +1,82 @@
+.projects-container{
+    display: grid;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
+  grid-gap: 10px;
+
+}
+
+.Description{
+    padding-top: 5%;
+    word-break: keep-all;
+}
+
+.project-card{
+
+    display:  flex;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 10px;
+    background-color: #2d2d37;
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    }
+
+.project-card-header{
+    display:  flex;
+    flex-direction: row;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.git-link-icon{ 
+    color: white;
+} 
+
+.git-link-icon:hover{ 
+    color: #FF4500;
+} 
+
+
+.project-card:hover {
+    background-color: #4c4c5e;
+    transform: scale(1.02); /* Slight pop-up effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for depth */
+  }
+
+.project-card-content{
+    display:  flex;
+    flex-direction: column;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    flex-grow: 1;
+    word-break: keep-all;
+}
+
+.Title{
+    color: white;
+    font-size: 25px;
+}
+
+.project-card-techstack{
+    display:  flex;
+    color: #FF4500;
+    padding-left: 5%;
+}
+
+@media (max-width: 992px) {
+
+    .projects-container{
+        display: grid;
+      grid-template-columns: repeat(1, minmax(300px, 1fr));
+      grid-gap: 10px;
+    
+    }
+}
