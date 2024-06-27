@@ -79,26 +79,26 @@ export default function Page() {
       <div id='contactbuttons' className='contactbuttons' ref={el => sectionsRef.current[3] = el}>
       
         <a href='https://drive.google.com/file/d/1vjS_oVNS0MloaUdFsaZ3Z14cN1o5RTMI/view?usp=sharing' target="_blank" 
-        rel="noopener noreferrer" className="btn btn-outline-light custom-button me-4" role="button" onClick={(event) => removeActiveClass(event)}>View Resume</a>
+        rel="noopener noreferrer" className="btn btn-outline-light custom-button me-4" role="button" onClick={(event) => removeActiveClass(event) } ref={el => sectionsRef.current[4] = el}>View Resume</a>
         <a href='mailto:manancnz@gmail.com' target="_blank" 
-        rel="noopener noreferrer" className="btn btn-outline-light custom-button" role="button" onClick={(event) => removeActiveClass(event)}>Contact Me</a>
+        rel="noopener noreferrer" className="btn btn-outline-light custom-button" role="button" onClick={(event) => removeActiveClass(event)} ref={el => sectionsRef.current[5] = el}>Contact Me</a>
       </div>
 
-      <div id='aboutme' className="aboutme fade-in " ref={el => sectionsRef.current[4] = el}>
+      <div id='aboutme' className="aboutme fade-in " ref={el => sectionsRef.current[6] = el}>
         <h1 className="aboutme-title">{'> About Me'}</h1>
         <Aboutme></Aboutme>
       </div>
 
-      <div id='skills' className="skills fade-in" ref={el => sectionsRef.current[5] = el}>
+      <div id='skills' className="skills fade-in" ref={el => sectionsRef.current[7] = el}>
         <h1 className="skills-title">{'> Skills'}</h1>
         <Skills></Skills>
       </div>
 
-      <div id='experience' className="experience fade-in" ref={el => sectionsRef.current[6] = el}>
+      <div id='experience' className="experience fade-in" ref={el => sectionsRef.current[8] = el}>
         <h1 className="experience-title">{'> Experience'}</h1>
         <Experience className="experience-tabs"></Experience>
       </div>
-      <div id='projects' className="projects fade-in" ref={el => sectionsRef.current[7] = el}>
+      <div id='projects' className="projects fade-in" ref={el => sectionsRef.current[9] = el}>
         <h1 className="projects-title">{'> Projects'}</h1>
         <Project></Project>
       </div>

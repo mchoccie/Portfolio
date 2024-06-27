@@ -52,23 +52,30 @@
     padding-bottom: 10%;
     padding-top: 5%;
     
+    
 }
 
 .aboutme-title{
     color: white;
     font-size: 30px;
-    padding-bottom: 5%;
+    border-bottom: 0.5px solid  rgba(255, 69, 0, 0.2);;
+    width: 23%;
+    
 }
+
 
 .skills-title{
     color: white;
     font-size: 30px;
-    padding-bottom: 5%;
+    border-bottom: 0.5px solid rgba(255, 69, 0, 0.2);;
+    width: 23%;
 }
 
 .experience-title{
     font-size: 30px;
     color: white;
+    border-bottom: 0.5px solid  rgba(255, 69, 0, 0.2);;
+    width: 23%;
 }
 
 .contactbuttons{
@@ -82,7 +89,8 @@
 .projects-title{
     font-size: 30px;
     color: white;
-    padding-bottom: 5%;
+    border-bottom: 0.5px solid rgba(255, 69, 0, 0.2);
+    width: 23%;
 }
 
 .projects{
