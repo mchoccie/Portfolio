@@ -50,7 +50,7 @@
     /* padding-left: 15%; */
     padding-right: 15%;
     padding-bottom: 10%;
-    padding-top: 5%;
+    
     
     
 }
@@ -59,7 +59,8 @@
     color: white;
     font-size: 30px;
     border-bottom: 0.5px solid  rgba(255, 69, 0, 0.2);;
-    width: 23%;
+    padding-top: 5%;
+    width: 20vw;
     
 }
 
@@ -68,14 +69,14 @@
     color: white;
     font-size: 30px;
     border-bottom: 0.5px solid rgba(255, 69, 0, 0.2);;
-    width: 23%;
+    width: 20%;
 }
 
 .experience-title{
     font-size: 30px;
     color: white;
     border-bottom: 0.5px solid  rgba(255, 69, 0, 0.2);;
-    width: 23%;
+    width: 20%;
 }
 
 .contactbuttons{
@@ -83,14 +84,14 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding-bottom: 10%;
+    padding-bottom: 12%;
 }
 
 .projects-title{
     font-size: 30px;
     color: white;
     border-bottom: 0.5px solid rgba(255, 69, 0, 0.2);
-    width: 23%;
+    width: 20%;
 }
 
 .projects{
@@ -183,9 +184,6 @@ body, html, #root {
 
 }
 
-.experience-title{
-    margin-bottom: 5%;
-}
 
 .experience-tabs {
     margin-top: 5%;
